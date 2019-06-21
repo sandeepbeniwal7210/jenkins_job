@@ -13,7 +13,7 @@ then
 elif [ $OPERATION == "Subtraction" ]
 then
 	echo "INFO :: Subraction"
-	if [ $FIRST_NUMBER -lt $SECOND_NUMBER ] && echo "WARN :: Subtrehend is greater then minuend : Difference is negative"
+	 [ $FIRST_NUMBER -lt $SECOND_NUMBER ] && echo "WARN :: Subtrehend is greater then minuend : Difference is negative"
 	echo $((FIRST_NUMBER - SECOND_NUMBER))
 elif [ $OPERATION == "Multiplication" ]
 then
